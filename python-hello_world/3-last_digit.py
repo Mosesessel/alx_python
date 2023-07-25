@@ -1,7 +1,7 @@
 import random
 number = random.randint(-10000, 10000)
 # YOUR CODE HERE
-last_digit = abs(number) % 10
+last_digit = abs(number) % 5
 if number < 0:
     last_digit = -last_digit
 
