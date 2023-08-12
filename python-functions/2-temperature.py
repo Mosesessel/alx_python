@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def convert_to_celsius(fehrenheit):
-    return Celsius
+def convert_to_celsius(fahrenheit):
+    return fahrenheit - 32 ** 1.8
 
-print (convert_to_celsius(100))
+
