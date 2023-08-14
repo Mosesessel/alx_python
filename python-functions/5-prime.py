@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def is_prime(number):
     if number <= 1:
         return False
@@ -6,8 +7,3 @@ def is_prime(number):
             return False
         return True
      
-
-    print(is_prime(17))
-    print(is_prime(15))
-    print(is_prime(-5))
-    print(is_prime(0))
