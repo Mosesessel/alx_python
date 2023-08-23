@@ -1,5 +1,5 @@
 def fibonacci_sequence(n):
-    fibonacci_list = [0, 1]
+    fibonacci_list = []
     for i in range (n):
         if i <= 1:
             fibonacci_list.append(i)
