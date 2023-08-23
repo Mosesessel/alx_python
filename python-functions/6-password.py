@@ -20,7 +20,7 @@ def validate_password (password):
         elif char.isspace():
             has_space = True
 
-    if not (has_uppercase and has_lowercase and has_digit and has_space):
+    if not (has_uppercase and has_lowercase and has_digit and not has_space):
         return False
 
     return True                   
